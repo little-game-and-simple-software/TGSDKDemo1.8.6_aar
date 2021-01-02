@@ -1,0 +1,117 @@
+
+        <!-- SigMob -->
+        <provider
+            android:name="com.sigmob.sdk.SigmobFileProvider"
+            android:authorities="${applicationId}.sigprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/sigmob_provider_paths"/>
+        </provider>
+        <!-- Shenqiad -->
+        <provider
+            android:name="com.shenqi.sdk.ex.SQFileProvider"
+            android:authorities="${applicationId}.android7.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/shenqi_file_paths" />
+        </provider>
+        <!-- Guangdiantong -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/gdt_file_path" />
+        </provider>
+
+
+        <!-- Baidu -->
+        <provider
+            android:name="com.baidu.mobads.openad.FileProvider"
+            android:authorities="${applicationId}.bd.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/bd_file_paths" />
+        </provider>
+
+        <!-- Mobvista -->
+        <provider
+            android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
+            android:authorities="${applicationId}.mtgFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/mtg_provider_paths" />
+        </provider>
+
+        <!-- UniPlay -->
+        <provider
+            android:name="com.uniplay.adsdk.UniPlayFileProvider"
+            android:authorities="${applicationId}.uniplay.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/uniplay_file_path" />
+        </provider>
+
+        <!-- Yoads -->
+        <provider
+            android:name="com.yomob.yomobads.ad.YomobFileProvider"
+            android:authorities="${applicationId}.yomob.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/yomob_paths" />
+        </provider>
+
+        <!--Wangmai-->
+        <provider
+            android:name="com.soulgame.sgsdk.adsdk.TGSDKADWangmaiFileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/yomob_wm_file_paths" />
+        </provider>
+        <!-- ByteDance -->
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.TTFileProvider"
+            android:authorities="${applicationId}.TTFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/tt_file_paths" />
+        </provider>
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+            android:authorities="${applicationId}.TTMultiProvider"
+            android:exported="false" />
+
+        <!-- OneWay -->
+        <provider
+            android:name="mobi.oneway.sdk.common.OWProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/ow_file_paths" />
+        </provider>
+
+        <provider
+            android:name="com.liulishuo.okdownload.OkDownloadProvider"
+            android:authorities="${applicationId}.com.liulishuo.okdownload"
+            android:exported="false" />
